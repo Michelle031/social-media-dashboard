@@ -1,0 +1,21 @@
+@media (max-width: 500px) {
+  .container {
+    padding: 40px;
+  }
+  header {
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .nav-right {
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .cards2 {
+    grid-template-rows: repeat(8, 110px);
+    grid-template-columns: 1fr;
+  }
+}
